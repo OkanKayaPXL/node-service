@@ -26,3 +26,4 @@ test('unknown paths return 404', async () => {
   const response = await fetch(`${baseUrl}/missing`);
   assert.equal(response.status, 404);
 });
+
